@@ -1,0 +1,12 @@
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+mat-icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.mr{
+    margin-right: 10px;
+}
