@@ -36,6 +36,7 @@ export class AppComponent {
   countryControl!: FormControl;
   cityControl!: FormControl;
   cities$!: Observable<string>;
+  showFiller = false;
 
   constructor(private router: Router){}
 

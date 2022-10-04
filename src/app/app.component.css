@@ -10,3 +10,29 @@ mat-icon{
 .mr{
     margin-right: 10px;
 }
+
+.content{
+    margin-top: 20px;
+}
+
+mat-option{
+    color: #fff;
+}
+
+.container{
+    background-color: black;
+    height: 100%;
+}
+
+.sidenav-content{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav{
+    padding: 20px;
+    background-color: #424242
+}
+

@@ -15,7 +15,7 @@ import { WeatherReportComponent } from './weather-report/weather-report.componen
 import { HttpClientModule } from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 const router: Routes = [
@@ -47,7 +47,8 @@ const router: Routes = [
     HttpClientModule,
     MatButtonModule,
     MatIconModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

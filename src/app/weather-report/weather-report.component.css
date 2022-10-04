@@ -58,3 +58,7 @@ div{
 .image {
     height: 80px;
 }
+
+.mat-drawer-content {
+    background-color: black!important;
+}
